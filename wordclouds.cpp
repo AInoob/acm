@@ -1,6 +1,11 @@
 #include <iostream>
 #define BIG 1000000000
 using namespace std;
+/*
+ * using Dynamic Programming to solve this, the shape is like a triangle.
+ * map[a][0] means creating a new line, while map[a][b] means append the word to map[a-1][b-1]
+ * Every time creating a new line, get the smallest height from previous combinations
+ */
 int main(){
 	//0:current width 1:current height 2:total height
 	int map[5000][5000][3],n,width,w,h,temp;
