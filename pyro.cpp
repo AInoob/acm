@@ -1,4 +1,5 @@
 /*
+ * https://open.kattis.com/problems/pyro
  * creating a list conatining every possible numbers, keep track of the number of possible permutations.
  * Everytime get a new number, generate all possible permutations, and increment the number of possible permutations of those permutations in the list
  * list[i] contains the number of possible permutions of i.
