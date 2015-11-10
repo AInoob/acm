@@ -1,4 +1,5 @@
 /*
+ * https://open.kattis.com/problems/falling
  * basically factorize the n and see if any combination of it's factors differ only 2k.
  * if the difference of x and y is 2k, then (x/2+y/2+k)(x/2+y/2-k) is |((x+y)/2)^2-k^2| or say a^2-k^2
  * factoring takes O(log n)
